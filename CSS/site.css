@@ -1,0 +1,207 @@
+@font-face {font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot"); src: url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff") format("woff"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.svg#Myriad Pro") format("svg"); }
+
+@font-face {
+	font-family: "UTM Thanh Nhac TL";
+	src: url("../Fonts/UTM Thanh Nhac TL.ttf") format("woff"), url("../Fonts/UTM Thanh Nhac TL.ttf") format("opentype"), url("../Fonts/UTM Thanh Nhac TL.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	overflow: hidden;
+	background-color:black;
+	background-position: center;
+	background-size: cover;
+}
+
+div, img {
+}
+
+video {
+	position:absolute;
+	margin:auto;
+	top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+	object-fit: cover;
+}
+
+#intro{
+	opacity:0;
+}
+
+
+#round{
+	opacity:0;
+}
+
+p {
+	margin:auto;
+	position:absolute;
+	letter-spacing:0px;
+}
+
+table {
+	margin:auto;
+	position:absolute;
+	padding:0px;
+}
+
+div.scenechinh {
+    position:fixed;
+	background: url('../Images/wheel_bg.png') no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+    top:0%;
+    left:0%;
+	opacity:1;
+}
+
+div.chiecnon {
+    position:absolute;
+	background: url('../Images/wheel.png') no-repeat;
+	background-size: cover;
+	width: 1500px;
+	height: 1500px;
+	left:275px;
+	top:-175px;
+}
+
+div.sceneochu {
+	background: url('../Images/letters_bg.png') no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	opacity:1;
+}
+
+img.kim {
+    position:absolute;
+	width:200px;
+	height:200px;
+	left:425px;
+	top:475px;
+	transform: rotateZ(-90deg);
+}
+
+table.o_chu {
+	width:1500px;
+	height:600px;
+	text-align:center;
+	left:275px;
+	top:300px;
+}
+
+div.question {
+	background: url('../Images/question.png') no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	font-family:'UTM Thanh Nhac TL';
+    position:absolute;
+	opacity:0;
+}
+
+table.q_text {
+	width:1415px;
+	height:123px;
+	bottom:108px;
+	left:490px;
+	font-size:40px;
+	font-weight:bold;
+	line-height:46px;
+	font-family:'UTM Thanh Nhac TL';
+	color:white;
+}
+
+table.q_text td {
+	text-align:center;
+	vertical-align:middle;
+}
+
+div.question {
+	background: url('../Images/question.png') no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	font-family:'UTM Thanh Nhac TL';
+    position:absolute;
+	opacity:0;
+}
+
+div.score {
+	background: url('../Images/score.png') no-repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	font-family:'UTM Thanh Nhac TL';
+    position:absolute;
+	opacity:0;
+}
+
+div.score_content {
+	top:23px;
+	width:1301px;
+	height:160px;
+	left:374px;
+    position:absolute;
+}
+
+p.name {
+	bottom:6px;
+	width:314px;
+	height:45px;
+    position:absolute;
+	color:white;
+	font-size:28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#n1{
+	left:54px;
+}
+
+
+#n2{
+	left:493.5px;
+}
+
+
+#n3{
+	left:933px;
+}
+
+p.points {
+	bottom:57px;
+	width:410px;
+	height:98px;
+    position:absolute;
+	color:white;
+	font-size:40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#p1{
+	left:6px;
+}
+
+
+#p2{
+	left:445.5px;
+}
+
+
+#p3{
+	left:885px;
+}
+
+
